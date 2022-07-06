@@ -5,12 +5,16 @@
 
 }
 
+html    {
+    font-family:sans-serif;
+}
+
 img {
     max-width: 100%;
 }
 
 .container  {
-    width: 1201px;
+    width: 1149px;
     margin: 0 auto;
 }
 
@@ -82,23 +86,35 @@ img {
 
 .main   {
     background-color: var(--light-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.main__container    {
+    margin-right: 1rem;
 }
 
 .recently-played h2,
-.creato-per-john-doe h2   {
+.creato-per-john-doe h2,
+.artisti-piu-popolari h2   {
     color: white;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
 .recently-played figure,
-.creato-per-john-doe figure {
+.creato-per-john-doe figure,
+.artisti-piu-popolari figure {
     width:11.2rem;
     height:11.2rem;
 }
 
-.song-author   {
+.recently-played h4,
+.creato-per-john-doe h4,
+.artisti-piu-popolari h4  {
     color: #7d7f84;
+    padding:0.7rem;
 }
 
 .song-title   {
