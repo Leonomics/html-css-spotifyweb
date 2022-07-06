@@ -27,7 +27,26 @@ img {
 .main-header    {
     background-color: #080b12;
     height: 5.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.upgrade-button
+.logo       {
+    margin-left: 1.1rem;
+    width: 9rem;
+    
+}
+
+.upgrade-button {
+    border-radius: 25px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.65rem;
+    padding-right: 2.65rem;
+    margin-right: 0.2rem;
+    color: white;
+    background-color: transparent;
+    border:2px solid white;
+}
 
