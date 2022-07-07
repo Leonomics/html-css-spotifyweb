@@ -156,6 +156,7 @@ img {
     width: 231px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     
 }
 
@@ -178,4 +179,20 @@ img {
     border-left: 2px solid greenyellow;
 }
 
+.home::before   {
+    font-family: "Font Awesome 5 Free";
+    content: "\f015";
+    font-weight: 400;
+}
 
+.lateral-nav-bar__lower-section {
+    color:var(--subtitle);
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+}
+
+.lateral-nav-bar__lower-section .line   {
+    border-bottom: 2px solid var(--subtitle);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
