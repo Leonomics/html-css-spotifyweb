@@ -5,6 +5,7 @@
 
 }
 
+
 html    {
     font-family:sans-serif;
 }
@@ -195,4 +196,65 @@ img {
     border-bottom: 2px solid var(--subtitle);
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+/*TOOLBAR*/
+.toolbar    {
+    display:flex;
+    background-color: var(--grey);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+.toolbar__left   {
+    display: flex;
+    align-items: center;
+}
+
+.song-info  {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5rem;
+    margin:1.4rem;
+}
+
+.song-info img  {
+    width: 2.62rem;
+    height: 2.62rem;
+}
+
+.song-info h4   {
+    color: white;
+}
+
+.song-info h3   {
+    color: var(--subtitle);
+}
+
+.toolbar__left i    {
+    color: var(--subtitle);
+    padding: 0.5rem;
+}
+
+.toolbar__center    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toolbar__right {
+    display: flex;
+    align-items: center;
+}
+
+.toolbar__center i  {
+    color: var(--subtitle);
+    padding: 0.5rem;
+}
+
+.toolbar__right i   {
+    color: var(--subtitle);
+    padding: 0.5rem;
 }
