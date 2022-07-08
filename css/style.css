@@ -116,6 +116,10 @@ img {
     margin-right: 1rem;
 }
 
+.artisti-piu-popolari  {
+    margin-bottom: 100px;
+}
+
 .recently-played h2,
 .creato-per-john-doe h2,
 .artisti-piu-popolari h2   {
@@ -279,11 +283,13 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .toolbar__right {
     display: flex;
     align-items: center;
+    margin-right: 2rem;
 }
 
 .toolbar__center i  {
@@ -291,7 +297,41 @@ img {
     padding: 0.5rem;
 }
 
+.upper-level    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-circle-play     {
+   font-size: 2.5rem;
+}
+
 .toolbar__right i   {
     color: var(--subtitle);
     padding: 0.5rem;
+}
+
+.time-bar   {
+    border-bottom: 2px solid var(--subtitle);
+    width: 600px;
+    position: relative;
+}
+
+.current-time-bar   {
+    position: absolute;
+    width: 200px;
+    border-bottom: 2px solid white;
+}
+
+.volume-bar {
+    border-bottom: 2px solid var(--subtitle);
+    width: 200px;
+    position: relative;
+}
+
+.current-volume-bar {
+    position: absolute;
+    width: 100px;
+    border-bottom: 2px solid white;
 }
